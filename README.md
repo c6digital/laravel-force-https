@@ -52,7 +52,7 @@ php artisan vendor:publish --tag="laravel-force-https-views"
 ## Usage
 
 ```php
-$laravelForceHttps = new C6Digital\LaravelForceHttps();
+$laravelForceHttps = new C6Digital\ForceHttps();
 echo $laravelForceHttps->echoPhrase('Hello, C6Digital!');
 ```
 

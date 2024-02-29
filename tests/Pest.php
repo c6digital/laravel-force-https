@@ -1,5 +1,5 @@
 <?php
 
-use C6Digital\LaravelForceHttps\Tests\TestCase;
+use C6Digital\ForceHttps\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

@@ -1,6 +1,7 @@
 <?php
 
-// config for C6Digital/LaravelForceHttps
 return [
+
+    'force' => env('FORCE_HTTPS', false),
 
 ];
