@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace C6Digital\LaravelForceHttps;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use C6Digital\LaravelForceHttps\Commands\LaravelForceHttpsCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LaravelForceHttpsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laravel-force-https')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laravel-force-https_table')
+            ->hasCommand(LaravelForceHttpsCommand::class);
     }
 }
